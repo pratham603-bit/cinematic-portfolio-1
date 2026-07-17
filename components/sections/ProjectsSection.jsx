@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { gsap, ScrollTrigger } from '@/lib/gsap'
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import styles from '@/styles/sections/ProjectsSection.module.css'
 
@@ -135,7 +136,7 @@ export default function ProjectsSection() {
                 className={styles.slideBg}
               >
                 <Image
-                  src={proj.image}
+                  src={getAssetPath(proj.image)}
                   alt={proj.title}
                   fill
                   quality={100}

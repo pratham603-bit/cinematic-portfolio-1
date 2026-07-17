@@ -7,6 +7,7 @@ import { FaGithub, FaLinkedinIn, FaInstagram } from 'react-icons/fa'
 import { FiArrowUpRight } from 'react-icons/fi'
 import { gsap } from '@/lib/gsap'
 
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import content from '@/data/content.json'
 import styles from '@/styles/sections/HeroSection.module.css'
@@ -99,7 +100,7 @@ export default function HeroSection() {
       {/* Photo */}
       <div ref={photoRef} className={styles.photo}>
         <Image
-          src="/assets/hero.png" alt={profile.name.full}
+          src={getAssetPath('/assets/hero.png')} alt={profile.name.full}
           fill priority quality={100}
           sizes="(min-width: 768px) 55vw, 100vw"
           className={styles.photoImg}

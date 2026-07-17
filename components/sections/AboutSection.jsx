@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
 import { gsap } from '@/lib/gsap'
 import { FaGithub, FaLinkedinIn, FaMedium, FaInstagram, FaYoutube } from 'react-icons/fa'
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import styles from '@/styles/sections/AboutSection.module.css'
 
@@ -87,7 +88,7 @@ export default function AboutSection() {
         <div className={styles.photoWrap}>
           <div className={styles.photoFrame} data-about-photo>
             <Image
-              src="/assets/about.png"
+              src={getAssetPath('/assets/about.png')}
               alt={profile.name.full}
               fill
               quality={100}

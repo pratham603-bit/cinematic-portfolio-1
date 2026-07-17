@@ -9,6 +9,7 @@ import {
   FaGithub, FaLinkedinIn, FaMedium, FaInstagram, FaYoutube, FaEnvelope,
 } from 'react-icons/fa'
 import { FiArrowUpRight, FiChevronDown } from 'react-icons/fi'
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import content from '@/data/content.json'
 import styles from '@/styles/sections/PublicationsFooterSection.module.css'
@@ -133,7 +134,7 @@ export default function PublicationsFooterSection() {
       const camera = new THREE.OrthographicCamera(-W / 2, W / 2, H / 2, -H / 2, 0.1, 100)
       camera.position.z = 10
 
-      videoEl.src       = 'assets/footer-video.mp4'
+      videoEl.src       = getAssetPath('/assets/footer-video.mp4')
       videoEl.muted     = true
       videoEl.playsInline = true
       videoEl.loop      = true
@@ -329,7 +330,7 @@ export default function PublicationsFooterSection() {
         {/* ── Mobile background image (footer phase - mobile only) ── */}
         <div className={styles.mobileFooterBg}>
           <Image
-            src="/assets/footer-mobile.png"
+            src={getAssetPath('/assets/footer-mobile.png')}
             alt=""
             fill
             quality={100}
@@ -345,7 +346,7 @@ export default function PublicationsFooterSection() {
         {/* ── Floating image: starts left, moves to center ── */}
         <div ref={imageWrapRef} className={styles.imageWrap}>
           <Image
-            src="/assets/footer.png"
+            src={getAssetPath('/assets/footer.png')}
             alt=""
             fill
             quality={100}

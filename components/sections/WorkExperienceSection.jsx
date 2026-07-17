@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react'
 import Image from 'next/image'
 import { gsap } from '@/lib/gsap'
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import styles from '@/styles/sections/WorkExperienceSection.module.css'
 
@@ -101,7 +102,7 @@ export default function WorkExperienceSection() {
 
       <div className={styles.bgImg} aria-hidden>
         <Image
-          src="/assets/work-experience.webp"
+          src={getAssetPath('/assets/work-experience.webp')}
           alt=""
           fill
           quality={100}

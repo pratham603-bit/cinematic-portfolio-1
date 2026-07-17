@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from 'react'
 import dynamic from 'next/dynamic'
 import { gsap } from '@/lib/gsap'
+import { getAssetPath } from '@/lib/siteConfig'
 import profile from '@/data/profile.json'
 import content from '@/data/content.json'
 import styles from '@/styles/sections/VideoIntro.module.css'
@@ -119,7 +120,7 @@ export default function VideoIntro() {
 
       {/* 1 - Blurred ambient background */}
       <video
-        src="assets/about-me.mp4"
+        src={getAssetPath('/assets/about-me.mp4')}
         autoPlay muted playsInline
         aria-hidden="true"
         className={styles.bgVideo}
@@ -129,7 +130,7 @@ export default function VideoIntro() {
       <video
         ref={videoRef}
         data-testid="intro-video"
-        src="assets/about-me.mp4"
+        src={getAssetPath('/assets/about-me.mp4')}
         muted playsInline
         onPlay={() => setPlaying(true)}
         onPause={() => setPlaying(false)}
