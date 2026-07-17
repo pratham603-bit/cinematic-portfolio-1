@@ -1,8 +1,12 @@
+const isProd = process.env.NODE_ENV === 'production';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactCompiler: true,
+  output: 'export',
+  basePath: isProd ? '/cinematic-portfolio-1' : '',
   images: {
-    qualities: [75, 80, 95, 100],
+    unoptimized: true,
   },
 };
 
