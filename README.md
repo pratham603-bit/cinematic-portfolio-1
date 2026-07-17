@@ -96,8 +96,3 @@ npm run start
 - *Deploying Serverless NLP Models on AWS: A Step-by-Step Guide*
 - *Real-Time Sync Pipelines: Bridge MySQL with Firebase Realtime Database*
 
----
-
-## 📄 License
-
-This project is licensed under the MIT License.
