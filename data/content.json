@@ -1,0 +1,22 @@
+{
+  "site": {
+    "tagline": "Portfolio 2026"
+  },
+  "hero": {
+    "taglineHighlight": "systems",
+    "freelanceNote": "Available for internship & full-time opportunities.",
+    "availableLabel": "Available for work",
+    "pills": ["Full Stack Dev", "NLP Developer", "AWS Cloud Engine", "C++ Specialist"],
+    "specialistStat": { "value": "NLP + Stack", "label": "Specialist" }
+  },
+  "interstitial": {
+    "availabilityLabel": "Availability",
+    "basedInLabel": "Based in",
+    "statLabels": ["Graduation\nyear", "Projects\ncompleted", "Skills\nmastered"]
+  },
+  "footer": {
+    "eyebrow": "Available for collaborations",
+    "ctaLines": ["Crafting modern", "digital systems", "that feel"],
+    "ctaAccent": "alive."
+  }
+}

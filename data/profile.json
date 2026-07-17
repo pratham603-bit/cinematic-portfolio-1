@@ -1,0 +1,140 @@
+{
+  "name": {
+    "first": "Pratham",
+    "last": "D",
+    "full": "Pratham D"
+  },
+  "email": "prathamd023@gmail.com",
+  "tagline": "Building high-performance full-stack systems, NLP intelligence, and cloud architectures.",
+  "description": "Full-stack developer specializing in Natural Language Processing, AWS, Python, and C++ Data Structures.",
+  "roles": {
+    "short": "Full-Stack & AI Developer",
+    "detailed": "Full-Stack Engineer · NLP Architect · Cloud Developer"
+  },
+  "location": {
+    "based": "Bengaluru, India",
+    "availability": "Remote / Worldwide"
+  },
+  "available": true,
+  "bio": "I am a Full Stack Developer and NLP enthusiast pursuing my B.Tech in Computer Science and Engineering at Presidency University (Class of 2028). I specialize in building end-to-end web applications, developing Natural Language Processing solutions, and architecting cloud systems with AWS. With solid foundations in Data Structures & Algorithms using C++, and backend integration using Python, Firebase, and MySQL, I build scalable digital solutions that are both high-performing and user-centric.",
+  "stats": [
+    { "value": "2028",  "label": "Graduation" },
+    { "value": "15+", "label": "Projects Completed" },
+    { "value": "10+",   "label": "Skills Mastered" }
+  ],
+  "skills": [
+    "Full Stack Dev",
+    "NLP Developer",
+    "AWS Cloud",
+    "Python Dev",
+    "DS in C++",
+    "Firebase",
+    "MySQL Databases",
+    "Machine Learning",
+    "React / Next.js",
+    "Node.js Backend",
+    "Git & GitHub"
+  ],
+  "experience": [
+    {
+      "id": 1,
+      "role": "B.Tech Student (Computer Science & Engineering)",
+      "company": "Presidency University",
+      "companyShort": "PRESIDENCY",
+      "type": "Education",
+      "location": "Bengaluru, India",
+      "period": "Aug 2024",
+      "periodEnd": "Present",
+      "bullets": [
+        "Pursuing a Bachelor of Technology in CSE, focusing on algorithm design, software engineering practices, and cloud technologies.",
+        "Mastering Data Structures and Algorithms in C++ to write high-performance, efficient code.",
+        "Collaborating on student projects and participating in programming workshops and hackathons."
+      ],
+      "desc": "Studying Computer Science and Engineering. Deep-diving into C++ Data Structures, Databases (MySQL), and modern web stacks.",
+      "tech": [
+        "C++",
+        "DSA",
+        "Python",
+        "MySQL",
+        "Firebase"
+      ]
+    },
+    {
+      "id": 2,
+      "role": "Full Stack & NLP Developer",
+      "company": "Independent Engineering & Projects",
+      "companyShort": "PROJECTS",
+      "type": "Development",
+      "location": "Remote",
+      "period": "Jan 2025",
+      "periodEnd": "Present",
+      "bullets": [
+        "Architecting full-stack web applications featuring secure token authentication and relational databases.",
+        "Developing text-processing pipelines using Python and Natural Language Processing (NLP) toolkits.",
+        "Deploying services on Amazon Web Services (AWS), utilizing EC2, Lambda, and cloud monitoring tools."
+      ],
+      "desc": "Building open-source developer tools, serverless architectures, and text intelligence systems using Python, Next.js, and cloud platforms.",
+      "tech": [
+        "Python",
+        "NLP",
+        "AWS",
+        "Next.js",
+        "Firebase",
+        "MySQL"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "title": "NexusNLP",
+      "subtitle": "Advanced Text Analytics & Sentiment Orchestrator",
+      "type": "SaaS & AI API",
+      "link": "https://github.com/prathamd-dev",
+      "image": "/assets/project-nexusnlp.png",
+      "tech": ["Python", "FastAPI", "NLP", "AWS Lambda", "Firebase", "React"],
+      "desc": "A high-performance text intelligence platform. Orchestrates custom NLP pipelines including multi-lingual entity recognition, sentiment scoring, and text summarization. Built with a FastAPI backend running serverless on AWS Lambda, using Firebase for authentication and a real-time dashboard."
+    },
+    {
+      "id": 2,
+      "title": "CloudData Sync",
+      "subtitle": "Real-Time Multi-Engine Database Bridge",
+      "type": "Developer Utility",
+      "link": "https://github.com/prathamd-dev",
+      "image": "/assets/project-clouddatasync.png",
+      "tech": ["Node.js", "Python", "MySQL", "Firebase Realtime DB", "AWS EC2", "C++ Engine"],
+      "desc": "A high-throughput database synchronization pipeline that mirrors MySQL relational data to Firebase's NoSQL real-time document store. Features a core synchronization worker optimized with a C++ parsing module for binary logs, keeping sync latency under 12ms."
+    }
+  ],
+  "publications": [
+    {
+      "id": 1,
+      "title": "Mastering Data Structures in C++: Algorithmic Efficiency for Modern Apps",
+      "platform": "Medium",
+      "year": "2026",
+      "link": "https://medium.com/",
+      "desc": "A comprehensive deep dive into leveraging pointer architectures and memory management in C++ to design highly efficient computational data structures."
+    },
+    {
+      "id": 2,
+      "title": "Deploying Serverless NLP Models on AWS: A Step-by-Step Guide",
+      "platform": "Medium",
+      "year": "2026",
+      "link": "https://medium.com/",
+      "desc": "A walkthrough of deploying containerized Python text-processing engines to AWS Lambda, optimizing memory footprints, and reducing cold-start times."
+    },
+    {
+      "id": 3,
+      "title": "Real-Time Sync Pipelines: Bridge MySQL with Firebase Realtime Database",
+      "platform": "Medium",
+      "year": "2025",
+      "link": "https://medium.com/",
+      "desc": "Explaining the architecture behind binary log parsing in MySQL and streaming change data captures into Firebase NoSQL documents."
+    }
+  ],
+  "socials": [
+    { "label": "GitHub",    "href": "https://github.com/prathamd-dev" },
+    { "label": "LinkedIn",  "href": "https://www.linkedin.com" },
+    { "label": "Instagram", "href": "https://www.instagram.com" }
+  ]
+}
