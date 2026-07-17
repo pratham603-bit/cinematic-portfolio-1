@@ -1,8 +1,8 @@
-# Cinematic Portfolio — Pratham D
+# Cinematic Portfolio
 
 A high-performance, immersive personal portfolio built with **Next.js 16**, **GSAP**, **Three.js**, and **CSS Modules**. This project features smooth cinematic transitions, 3D particle animations, and snap-scrolling to showcase developer talent in a visual, interactive format.
 
-**GitHub:** [prathamd603-bit/cinematic-portfolio](https://github.com/prathamd603-bit)
+**GitHub:** [pratham603-bit/cinematic-portfolio-1](https://github.com/pratham603-bit/cinematic-portfolio-1)
 
 ---
 
@@ -85,7 +85,7 @@ npm run start
 
 ---
 
-## 📖 Featured Content & Projects (Pratham D)
+## 📖 Featured Content & Projects
 
 ### Projects
 - **NexusNLP**: High-performance text analytics & sentiment orchestrator. Uses a FastAPI backend deployed serverless on AWS Lambda with a real-time dashboard.
